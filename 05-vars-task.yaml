@@ -1,5 +1,5 @@
 - name: variables
-  hosts: localhost
+  hosts: master
   vars: #variable declaration
     Course: "Terraform"
     Trainer: "Siva"
