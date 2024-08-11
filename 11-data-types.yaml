@@ -1,15 +1,18 @@
 - name: data types
-  hosts: localhost
+  hosts: master
   vars:
     Course: DevOps with AWS #string
     Tools: # list
     - Linux
     - Shell
     - Ansible
+    - Python
     Experience: # map or dictionary
       DevOps: 3 # number
       AWS: 2
       Docker: 1
+      Terraform: 4
+      Jenkin: 5 
     RealProject: true #boolean
   tasks:
   - name: print variables
